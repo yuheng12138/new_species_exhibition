@@ -1,0 +1,14 @@
+h1 {
+    text-align: center;
+    color: #0000CC;
+    font-family: "SimSun";
+    font-size: 50px;
+    padding-top: 20px;
+}
+html{
+    background-color: #fff;
+}
+p{
+    font-family: "SimSun";
+    text-align: justify;
+}

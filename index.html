@@ -3,46 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>胡老师的新种小屋</title>
+    <title>Hulab new species exhibition</title>
     <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <script src="js/main.js"></script>
     <style>
-        #titleafter{
-            height: 5px;
-            margin-left: -20px;
-            margin-right: -20px;
-            background-color: #0000CC;
+        h3{
+            font-family: 'SimSun';
+            font-size: 2rem;
         }
-        
-        .box{
-            height: 100px;
-            background-color: #20558a;
-            margin-top: -40px;
-            margin-left: -10px;
-            margin-right: -10px;
-            margin-bottom: 0;
+        .phylum{
+            font-size: 2rem;
+            margin: 2rem 0rem 1rem 1rem;
+            color: #20558a;
+        }
+        .nova{
+            border: none;
         }
         td{
-            border-style: solid;
             text-align: center;
+        }
+        .index{
+            width: 20rem;
+            padding: 1rem 3rem;
+            background-color: #fff;
+            border-radius:12px;
+            box-shadow: 0 1rem 1rem #646464;
+            z-index: 10;
+            display: none;
+        }
+        .active{
+            display: block;
+        }
+        .title:hover{
+            background-color: #fff;
+            border-radius: 12px 12px 0 0;
+            color: black;
         }
     </style>
 </head>
 <body>
-    <div class="box">
-        <h1 style="color: white;">胡老师的新种小屋</h1>
+    <script>
+        resetHtmlFontsize()
+        window.onresize = resetHtmlFontsize
+    </script>
+    <div class="titlecontainer">
+        
+        <div class="logo" style="position: absolute;top: 1.25rem;left: 1.5rem;height: 4.75rem;">
+            <i>
+                Hulab
+            </i>
+        </div>
+        <div class="title" onmouseover ="hoverappear('archaea')" onmouseout="outdisappear('archaea')" style="position: absolute;bottom: 0;left: 20rem;height: 3rem;" > 
+            古菌
+        </div>
+        <div class="title" onmouseover ="hoverappear('bacteria')" onmouseout="outdisappear('bacteria')" style="position: absolute;bottom: 0;left: 40rem;height: 3rem;">
+            细菌
+        </div>
+        <div class="nova index"  id="archaea" onmouseover ="hoverappear('archaea')" onmouseout="outdisappear('archaea')" style="position: absolute; top: 6rem;left: 11rem;">
+            <table width = 100% style="color: white;">
+                <tr>
+                    <td>
+                        <a href="#">门名</a>
+                    </td>
+                    <td>
+                        <a href="#">门名</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="nova index" id="bacteria" onmouseover ="hoverappear('bacteria')" onmouseout="outdisappear('bacteria')" style="position: absolute;top: 6rem;left: 31rem;">
+            <table width = 100%>
+                <tr>
+                    <td>
+                        <a href="#">门名</a>
+                    </td>
+                    <td>
+                        <a href="#">门名</a>
+                    </td>
+                </tr>
+            </table>
+
+        </div>
     </div>
-    <!-- <div style="width: 105%;background-color: #d5d5d5;
-    height: 70px;margin-left: -10px;margin-top: 0;">
-        <h2 style="font-size: 30px;position: absolute;top: 80px;left: 25%;">古菌</h2>
-    </div> -->
-    <p>简介</p>
-    <hr>
-    <h3 style="font-family: 'SimSun'; font-size: 30px;">
-        <strong>
-            属名
-        </strong>
-    </h3>
-    <table width="100%" style="border-collapse: collapse;">
+    <div class="paragraph">
+        <p>
+            简介 
+        </p>
+    </div>
+    <div class="phylum nova" style="text-align: left;">
+        <b>
+            <i>
+                门名
+            </i>
+        </b>
+
+    </div>
+    <table width="100%" class="nova">
         <tr>
             <td><a href="1.html">种名</a></td>
             <td><a href="#">种名</a></td>
@@ -55,6 +112,5 @@
             <td><a href="#">种名</a></td>
         </tr>
     </table>
-    <hr style="margin-top: 30px;">
 </body>
 </html>

@@ -1,14 +1,35 @@
-h1 {
-    text-align: center;
-    color: #0000CC;
-    font-family: "SimSun";
-    font-size: 50px;
-    padding-top: 20px;
+.titlecontainer{
+    height: 5rem;
+    background-color: #20558a;
+    margin: -1rem -1rem 0 -1rem;
+    padding-top: 1rem;
+    position: relative;
 }
-html{
-    background-color: #fff;
+.logo{
+    color: #fff;
+    font-size: 3rem;
+    font-family: 'Dancing Script', cursive;
+}
+.title{
+    color: #fff;
+    font-size: 3rem;
+    font-family: 'Dancing Script', cursive;
 }
 p{
-    font-family: "SimSun";
-    text-align: justify;
+    font-size: 1rem;
+    font-family: 'SimSun';
+}
+.nova{
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif';
+}
+.paragraph{
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    margin: 30px 0;
+}
+a{
+
 }

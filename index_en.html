@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hulab new species exhibition</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <script src="js/main.js"></script>
+    <style>
+        .phylum{
+            font-size: 1.5rem;
+            margin: 2rem 15rem 1rem 15rem;
+            color: #20558a;
+
+        }
+        .paragraph{
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 0.25rem 1rem rgba(0,0,0,0.08);
+            margin: 2rem 15rem 2rem 15rem;
+        }
+        .index{
+            left: -4rem;
+        }
+        
+    </style>
+</head>
+<body>
+    <script>
+        resetHtmlFontsize()
+        window.onresize = resetHtmlFontsize
+    </script>
+
+    
+    <div class="logo">
+         <i>
+            Hulab New Species Exhibition
+        </i>
+    </div>
+
+
+    <div class="titlecontainer">
+        <div class="title">
+            <a href="index_en.html">
+                Home
+            </a>
+        </div>
+        <div class="title" onmouseover ="hoverappear('archaea')" onmouseout="outdisappear('archaea')"> 
+            Archaea
+            <div class="nova index"  id="archaea">
+                <table width = 100% style="color: black; font-size: 1.25rem;">
+                    <tr>
+                        <td onmouseover="hoverappear('门名1')" onmouseout="outdisappear('门名1')">
+                            <a href="#">
+                                Phylum
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td onmouseover="hoverappear('门名2')" onmouseout="outdisappear('门名2')">
+                            <a href="#">
+                                Phylum
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="#">
+                                Phylum
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="#">
+                                Phylum
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="#">
+                                Phylum
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="nova indexspecies" id="门名1" onmouseover="hoverappear('门名1')" onmouseout="outdisappear('门名1')" style="position: absolute;top: 3rem;left: 11rem;">
+                <table width="100%" style="color: black; font-size: 1.25rem;">
+                    <tr>
+                        <td>
+                            <a href="#">
+                            种名1
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="#">
+                            种名2
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="nova indexspecies" id="门名2" onmouseover="hoverappear('门名2')" onmouseout="outdisappear('门名2')" style="position: absolute;top: 5rem;left: 11rem;">
+                <table width="100%" style="color: black; font-size: 1.25rem;">
+                    <tr>
+                        <td>
+                            <a href="#">
+                            种名3
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="#">
+                            种名4
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        
+        <div class="title" onmouseover ="hoverappear('bacteria')" onmouseout="outdisappear('bacteria')">
+            Bacteria
+            <div class="nova index" id="bacteria">
+                <table width = 100% style="color: black; font-size: 1.25rem;">
+                    <tr>
+                        <td onmouseover="hoverappear('门名3')" onmouseout="outdisappear('门名3')">
+                            <a href="#">门名3</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td onmouseover="hoverappear('门名4')" onmouseout="outdisappear('门名4')">
+                            <a href="#">门名4</a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="nova indexspecies" id="门名3" onmouseover="hoverappear('门名3')" onmouseout="outdisappear('门名3')" style="position: absolute;top: 3rem;left: 11rem;">
+                <table width="100%" style="color: black; font-size: 1.25rem;">
+                    <tr>
+                        <td>
+                            <a href="#">
+                            种名5
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="#">
+                            种名6
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="nova indexspecies" id="门名4" onmouseover="hoverappear('门名4')" onmouseout="outdisappear('门名4')" style="position: absolute;top: 5rem;left: 11rem;">
+                <table width="100%" style="color: black; font-size: 1.25rem;">
+                    <tr>
+                        <td>
+                            <a href="#">
+                            种名7
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="#">
+                            种名8
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div style="width: 4rem;height: 2rem; justify-content: center; align-items: center; display: flex;
+                    background-color: #fff; position: relative;left: 40rem;border-radius: 1rem; font-size: 1rem;">
+            <a href="index.html">
+                En ⇄ 中
+            </a>
+        </div>
+    </div>
+
+
+    <div class="paragraph">
+        <p>
+            简介 
+        </p>
+    </div>
+    <div class="phylum nova" >
+        <b style="text-align: left;">
+            <i>
+                门名
+            </i>
+        </b>
+        <table width="100%" style="font-size: 1rem;">
+            <tr>
+                <td><a href="1.html">种名</a></td>
+                <td><a href="#">种名</a></td>
+                <td><a href="#">种名</a></td>
+                <td><a href="#">种名</a></td>
+            </tr>
+            <tr>
+                <td><a href="#">种名</a></td>
+                <td><a href="#">种名</a></td>
+                <td><a href="#">种名</a></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

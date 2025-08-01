@@ -1,0 +1,78 @@
+.logo{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    margin-left: 20rem;
+    font-size: 3rem;
+    color: #20558a;
+    font-family: 'Dancing Script', cursive;
+}
+.titlecontainer{
+    height: 3rem;
+    background-color: #20558a;
+    gap: 5rem;
+    display: flex;
+    align-items: center;
+    padding-left: 20rem;
+}
+.title{
+    color: #fff;
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', cursive;
+    position: relative;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+}
+.nova{
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    border: none;
+}
+.paragraph{
+    font-size: 1rem;
+    font-family: 'SimSun';
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.title:hover{
+    background-color: #fff;
+    color: black;
+    border-top:0.25rem solid #20558a;
+}
+td{
+    text-align: center;
+}
+.index{
+    width: 15rem;
+    height: 7.5rem;
+    overflow-y: auto;
+    background-color: #fff;
+    border-radius:0 0 12px 12px;
+    padding: 0.5rem 0;
+    box-shadow:-1rem 1rem 1rem #d2d0d0;
+    z-index: 10;
+    display: none;
+    position: absolute;
+    top: 3rem;
+    left: -6rem;
+}
+.indexspecies{
+    width: 15rem;
+    padding: 0.5rem 0;
+    background-color: #fff;
+    border-radius:0 0 12px 12px;
+    box-shadow:1rem 1rem 1rem #d2d0d0;
+    z-index: 10;
+    display: none;
+}
+.active{
+    display: block;
+}
+.index::-webkit-scrollbar{
+    display: none;
+}
+body {
+  font-family: "PingFang SC", "Microsoft YaHei", "Helvetica", "Arial", sans-serif;
+}
